@@ -43,6 +43,7 @@ public class ConvTest {
 			return numRecords;
 		}
 		
+		//inicializa matriz en 0's
 		private void initMatrix() {
 			for(int i=0; i < numRecords; i++) {
 				for(int j=0; j < numRecords; j++) {
@@ -51,16 +52,19 @@ public class ConvTest {
 			}
 		}
 		
+		//Dimensiona matriz
 		public ConfMatrix(int n) {
 			numRecords = n;
 			matrix = new int[n][n];
 			initMatrix();
 		}
 		
+		//Aumenta en 1 la posición i,j de la matriz
 		public void updateMatrix(int i, int j) {
 			matrix[i][j]++;
 		}
 		
+		//:v
 		public int[][] returnMatrix() {
 			return matrix;
 		}
@@ -75,6 +79,7 @@ public class ConvTest {
 	static String BASIC_AUTH;
 	static String CONV_URL;
 	
+	//Toma la información de samples.propierties
 	public static void getProperties(String fileName) {
 		try {
 			Properties properties = new Properties();
