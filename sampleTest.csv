@@ -1,16 +1,27 @@
 text,class
-TEXT1,INTENT1
-TEXT2,INTENT1
-TEXT3,INTENT1
-TEXT4,INTENT1
-TEXT5,INTENT1
-TEXT6,INTENT2
-TEXT7,INTENT2
-TEXT8,INTENT2
-TEXT9,INTENT2
-TEXT10,INTENT2
-TEXT11,INTENT3
-TEXT12,INTENT3
-TEXT13,INTENT3
-TEXT14,INTENT3
-TEXT15,INTENT3
+¿Que eventos realiza ruta n?,Actividades
+Es exactamente lo que necesitamos en ruta n,Aprobaciones_Usuario
+Asesoria en mi proyecto de ruta n,Asesoria
+Que beneficios obtengo por parte de ruta n,Beneficios
+Que te has hecho?,Confirmacion_Online
+Que aloja ruta n,Contencion
+Referentes en la creacion de ruta n,Creacion
+Hasta luego,Despedida
+Quieres que te lo repita?,El_Bot_No_Entiende_Al_Usuario
+Como obtener un espacio de oficinas en ruta n,Espaciodeoficinas
+Muchas gracias por tu ayuda,Gratitud
+Que proyectos apoya ruta n,Iniciativasapoyadas
+No.,No_Informacion
+Voy a cambiar de tema.,Otrapeticion
+Me llamo,Presentacion
+Que es ruta n,Quees
+Que crean en ruta n,Quehace
+No entendiste la clave.,Respuesta_Incorrecta
+Podriamos empezar de nuevo?,Respuestas_No_Claras
+Como comenzo ruta n,SaberCreacion
+Hola,Saludo
+Regreso mas tarde.,Usuario_Requiere_espera
+Puedes,Verbo_Poder
+Quiera,Verbo_Querer
+Como puedo llevar mi hoja de vida a ruta n,VinculacionLaboral
+Obtener una visita guiada en ruta n,Visitaguiada
